@@ -13,7 +13,7 @@ some text here
 2. numlist
 ***
 horizontal line above
-`inline code`
 ```
 block of code
 ```
+`inline code`
