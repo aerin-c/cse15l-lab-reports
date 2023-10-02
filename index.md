@@ -11,9 +11,8 @@ some text here
 - list2
 1. numlist
 2. numlist
-
-horizontal line
 ***
+horizontal line above
 `inline code`
 ```
 block of code
