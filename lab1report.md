@@ -2,7 +2,7 @@
 This is the write-up for the first lab that was assigned during Week 1. Below are examples for each command using the workspace created on EdStem.
 
 ## cd
-1. Using only `cd`, nothing is returned as can be seen in the image below. When we run it from the home directory (`~`), the directory we are in does not change. However, when we run it from a different directory (in this case, `~/lecture1`), we can see that it moves us back to the home directory (`~`). Therefore, it seems running `cd` with no arguments just moves us back to the home directory.
+1. Using only `cd`, nothing is returned as can be seen in the image below. When we run it from the home directory (`~`), the directory we are in does not change. However, when we run it from a different directory (in this case, `~/lecture1`), we can see that it moves us back to the home directory (`~`). The working directory `/home` for the first screenshot and `/home/lecture1` for the second screenshot Therefore, it seems running `cd` with no arguments just moves us back to the home directory.
 
 ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-10-02%20at%2011.17.57.png)
 ![Image](https://github.com/aerin-c/cse15l-lab-reports/blob/main/Screenshot%202023-10-22%20at%2016.16.54.png)
