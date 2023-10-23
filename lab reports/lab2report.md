@@ -6,7 +6,9 @@ The code for the string server is below: <br> ![Image](https://raw.githubusercon
 
 
 ## SSH Keys
+The general path is: ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-10-22%20at%2023.13.50.png) <br>
 
+Private Key <br> ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-10-22%20at%2023.09.29.png) <br> Public Key <br> ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-10-22%20at%2023.10.25.png) <br> Terminal Interaction <br> ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-10-22%20at%2023.10.51.png)
 
 ## New Knowledge
 What I learned from lab in Week 3 was how to set up an SSH key and make it so I did not have to remember a password to log in. I thought it was pretty neat that there was a way to autofill a password and log-in details via the terminal. Before learning how to do that, I never really knew how it worked since I only ever saw the UI and not the back-end.
