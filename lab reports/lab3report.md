@@ -26,6 +26,7 @@ Symptom (output of runnng the tests):
 ![Image](https://github.com/aerin-c/cse15l-lab-reports/blob/main/Screenshot%202023-11-05%20at%2021.57.51.png)
 
 The bug (before and after):
+
 Before:
 ```
 static void reverseInPlace(int[] arr) {
@@ -52,6 +53,7 @@ The issue was that after the first half of the list had been traversed, `arr[arr
 ## Researching Commands
 For this section I decided to research the `grep` command.
 1. `-F` (source: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html))
+   
 Example 1:
 The `-F` option allows us to interpret the string in the quotes as a literal string instead of a regex. If we wanted to match `[` and used regular grep, then it would throw an error because `[` is not a valid regex, but it works fine with `-F`:
 ```
@@ -72,6 +74,7 @@ Similarly, `.` is a special regex character, so just calling regular grep prints
 
    
 3. `-i` (source: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html))
+   
 Example 1:
 The `-i` option allows us to ignore the case when matching. Here, we want to match `nairobi`, and using `-i` allows us to match cases even when the `n` is capitalized:
 ```
@@ -99,6 +102,7 @@ Similarly, we can match even an all-caps `TANZANIA` using the query `tanzania`:
 ```
    
 5. `-o` (source: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html))
+   
 Example 1:
 The `-o` option only prints the actual part of the file that was matched, and not the entire line. For example, if I search for `cell` with the `-o` option, I will only get the word `cell` back and not the whole lines:
 ```
@@ -139,6 +143,7 @@ This is more useful when we use a regex, for example if I want to find all the n
 ```
    
 7. `-n` (source: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html))
+   
 Example 1:
 The `-n` option prints the line number along with the matched line, in case I want to find the original line in the file. Here, I print all the lines numbers where Sirabella is mentioned:
 ```
