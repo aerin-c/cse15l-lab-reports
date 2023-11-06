@@ -13,10 +13,10 @@ The code for the string server is below: <br> ![Image](https://raw.githubusercon
 
 ## SSH Keys
 The private key (`id_rsa`) on my computer is located at: 
-![Image]() 
+![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-11-05%20at%2021.00.43.png) 
 
 My public key (`id_rsa.pub`) on `ieng6` is located at:
-![Image]() 
+![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-11-05%20at%2021.01.00.png) 
 
 Logging into `ieng6` without being asked for my password:
 ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-10-22%20at%2023.10.51.png)
