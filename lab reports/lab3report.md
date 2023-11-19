@@ -23,7 +23,7 @@ Input that doesn't induce a failure:
 ```
 
 Symptom (output of running the tests):
-![Image](https://github.com/aerin-c/cse15l-lab-reports/blob/main/Screenshot%202023-11-05%20at%2021.57.51.png](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-11-05%20at%2021.57.51.png)
+![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-11-05%20at%2021.57.51.png)
 
 The bug (before and after):
 
