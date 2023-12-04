@@ -9,8 +9,8 @@ I have recently logged into ieng6 so my log in is the previous bash command. Usi
 
 ## Clone the Fork of the Repository (Lab Task, Step 5)
 Key(s) pressed:
-```<up><up><up><up><up><up><enter>```
-The `git clone` command using the SSH was further up in my command log within my ieng6 terminal so it took more presses of the up button to get to the command.
+```<r><m><space><-><r><f><space><lab7><command-c><command-v><enter>```
+I deleted the original directory using `rm -rf` which is a fast way to delete a directory that has files. From there, I copied the shortcut of `git clone https://github.com/ucsd-cse15l-s23/lab7` from the lab instructorns. I pasted it into the terminal and hit enter.
 ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-11-19%20at%2021.31.10.png)
 
 ## Run the Tests (Lab Task, Step 6)
@@ -35,5 +35,5 @@ Due to the number of commands I ran, the position of the `javac` and `java` comm
 ## Push the Changes to GitHub (Lab Task, Step 9)
 Key(s) pressed:
 ```<up><up><up><up><enter>,<up><up><up><up><enter>,<up><up><up><up><enter>```
-The commands were more recent since I wanted to experiment to make sure that things were being committed properly before I pushed the final changes.
+The first command I used was four up in my command history, it was `git add ListExamples.java`. Then I used the command `git commit -m "Changed stuff"` from my command history, it was also four up. Finally, I used `git push` which was four up in my command history. I used the up arrow to access all these commands in my terminal history.
 ![Image](https://raw.githubusercontent.com/aerin-c/cse15l-lab-reports/main/Screenshot%202023-11-19%20at%2022.46.46.png)
